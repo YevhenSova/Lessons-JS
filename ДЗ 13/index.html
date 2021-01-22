@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>lesson thirteen</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" async></script>
+    </head>
+    <body>
+        <h1>LESSON THIRTEEN</h1>
+
+        <form name="hamburger" action="#" id="form">
+            <fieldset>
+                <legend>Навались и обожрись</legend>
+                <div class="row">
+                    <p>Какой гамбургер предпочитаете?</p>
+                    <div class="radio-variant">
+                        <input type="radio" name="size" id="small" value="small" checked/>
+                        <label for="small">Маленький</label>
+                    </div>
+                    <div class="radio-variant">
+                        <input type="radio" name="size" id="average" value="average" checked/>
+                        <label for="average">Средний</label>
+                    </div>
+                    <div class="radio-variant">
+                        <input type="radio" name="size" id="large" value="large" />
+                        <label for="large">Большой</label>
+                    </div>
+                </div>
+                <div>
+                    <p>Добавить:</p>
+                    <div>
+                        <input type="checkbox" name="add" id="cheese" value="cheese"/>
+                        <label for="cheese">Сыр</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="add" id="salad" value="salad"/>
+                        <label for="salad">Салат</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="add" id="potato" value="potato"/>
+                        <label for="potato">Картофель</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="add" id="seasoning" value="seasoning"/>
+                        <label for="seasoning">Добавить приправу</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="add" id="mayonnaise" value="mayonnaise"/>
+                        <label for="mayonnaise">Полить майонезом</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Ввод" />
+                </div>
+            </fieldset>
+            <br />
+            <div id="result">
+                <div><b>Стоимость:</b> <span id="price">0</span> тугриков</div>
+                <div><b>Калорийность:</b> <span id="calories">0</span> кКал</div>
+            </div>
+        </form>
+      
+          
+    </body>
+</html>
