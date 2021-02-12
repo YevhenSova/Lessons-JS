@@ -1,0 +1,21 @@
+body {
+    background-color: red;
+}
+
+#title {
+    color: aqua;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    font-style: italic;
+}
+
+.form {
+    margin: 0px 360px 0px 360px;
+}
+
+table, td {
+    border: 1px solid;
+    border-color: green;
+    background-color: yellow;
+    text-align: center;
+}
