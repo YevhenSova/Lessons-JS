@@ -1,0 +1,83 @@
+.wrapper {
+    margin: 50px auto;
+}
+ 
+.appList {
+    border-radius: 2%;
+    background: aqua;
+    width: 350px;
+    padding: 15px;
+    height: 350px;
+    margin: 0 auto;
+}
+ 
+h1  {
+    text-align: center;
+}
+ 
+#app {
+    justify-content: space-between;
+}
+ 
+input {
+    border-radius: 5px;
+    border-color: #eb0b0b;
+    height: 25px;
+    max-width: 160px;
+    outline: none;
+}
+ 
+button {
+    height: 30px;
+    background: #3b4b55;
+    border-radius: 5px;
+    border-color: #0800fa;
+    outline: none;
+    cursor: pointer;
+    transition: background, .5s, linear;
+    min-width: 67px;
+}
+ 
+button:hover {
+    transition: background, .5s, linear;
+    background: #7fc7f1;
+}
+ 
+ul {
+    text-align: center;
+    padding: 0;
+}
+ 
+li {
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    list-style: none;
+    padding-bottom: 5px;
+    text-align: left;
+    font-style: italic;
+    position: relative;
+}
+ 
+.edit {
+    height: 23px;
+    width: max-content;
+    position: absolute;
+    left: 69%;
+    bottom: 14%;
+}
+ 
+span {
+    font-style: normal;
+    font-size: 25px;
+    color:  rgb(252, 0, 0);
+    transition: color, .5s, linear;
+    position: absolute;
+    left: 94%;
+    bottom: -3%;
+    cursor: pointer;
+}
+ 
+span:hover {
+    color:  #000000;
+    transition: color, .5s, linear;
+}
